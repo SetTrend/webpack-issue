@@ -1,0 +1,14 @@
+outer-wc
+{
+	> div
+	{
+		margin: 1ex 0;
+
+		&.outer
+		{
+			background: white url("../img/Throbber.gif") center no-repeat;
+			height: 2em;
+			border: 1px dotted blue;
+		}
+	}
+}

@@ -1,0 +1,39 @@
+{
+  "name": "webpack-issue",
+  "version": "1.0.0",
+  "description": "Describes an issue with webpack processing an image file twice.",
+  "main": "test.html",
+  "scripts": {
+    "buildAndRun:Dev": "webpack-dev-server --open",
+    "build:Dev": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/settrend/webpack-issue.git"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "A. D.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/settrend/webpack-issue/issues"
+  },
+  "homepage": "https://github.com/settrend/webpack-issue#readme",
+  "devDependencies": {
+    "@types/node": "^11.13.0",
+    "@webcomponents/webcomponentsjs": "^2.2.7",
+    "clean-webpack-plugin": "^2.0.1",
+    "css-loader": "^2.1.1",
+    "file-loader": "^3.0.1",
+    "node-sass": "^4.11.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "ts-loader": "^5.3.3",
+    "typescript": "^3.4.1",
+    "url-loader": "^1.1.2",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.2.1"
+  }
+}
