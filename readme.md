@@ -7,7 +7,8 @@ This is particularly true for image files used in a style file and passed throug
 `url-loader`.
 
 This repository demonstrates the issue and is an attachment to
-[issue 178](/webpack-contrib/url-loader/issues/178) at webpack url-loader repository.
+[issue 178](https://github.com/webpack-contrib/url-loader/issues/178) at webpack
+url-loader repository.
 
 # Steps to Reproduce
 To reproduce the issue, clone this repository to your local file.
@@ -31,7 +32,7 @@ Open `http://localhost:8080/test.html` to see the effect.
 This sample project contains three components, establishing an import chain:
 
 1. The `test.html` web page imports the `outer-wc` web component.
-1. The `outer-wc` web component itself imports the `inner-wc` web component.
+2. The `outer-wc` web component itself imports the `inner-wc` web component.
 
    ![web component import hierarchy](./src/img/_hierarchy_.png)
 
