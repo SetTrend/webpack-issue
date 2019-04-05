@@ -109,8 +109,8 @@ In this setup ...
 2. `file-loader` should not only copy the image file but also set the correct relative
    URL in the style sheet for `outer-wc`.
    
-   `inner-wc`'s imports *should not be touched* by `file-loader` as the rule for
-   `outer-wc` does not apply to `inner-wc`.
+3. `inner-wc`'s imports *should not be touched* by `file-loader` as the rule for
+   `outer-wc` does not apply to `inner-wc`. And vice-versa.
 
 # Conclusion
 <br/>
