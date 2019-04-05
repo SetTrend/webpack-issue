@@ -107,7 +107,9 @@ In this setup ...
    for `outer-wc`.
 
 2. `file-loader` should not only copy the image file but also set the correct URL in the
-   style sheet for `outer-wc`. `inner-wc`'s already processed imports *should not be touched*.
+   style sheet for `outer-wc`.
+   
+   `inner-wc`'s already processed imports *should not be touched*.
 
 # Conclusion
 <br/>
