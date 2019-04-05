@@ -106,10 +106,11 @@ In this setup ...
 1. `url-loader` should create a valid BASE64 encoded image URL for `inner-wc`, but not
    for `outer-wc`.
 
-2. `file-loader` should not only copy the image file but also set the correct URL in the
-   style sheet for `outer-wc`.
+2. `file-loader` should not only copy the image file but also set the correct relative
+   URL in the style sheet for `outer-wc`.
    
-   `inner-wc`'s already processed imports *should not be touched*.
+   `inner-wc`'s imports *should not be touched* by `file-loader` as the rule for
+   `outer-wc` does not apply to `inner-wc`.
 
 # Conclusion
 <br/>
